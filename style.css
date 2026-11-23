@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+}
+body{
+    color: #333;
+}
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin:100px auto;
+}
+h1{
+    margin-bottom: 20px;
+}
+
+a{
+    padding:8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    background: #74b9ff;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td{
+    padding: 10px;
+    
+    border-bottom: 1px solid #ccc;
+}
+
+th{
+    text-align: left;
+}
+
+.btn-delete{
+    background: #ff7675;
+    margin-left: 10px;
+}
+.wrapper{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;   
+   background:#f2f2f2;
+}
+.form-wrapper{
+    width: 700px;
+    padding: 40px  40px 50px ;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.form-wrapper h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+textarea{
+    resize: none;
+    height: 150px;
+}
+.btn-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.btn-box button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #74b9ff;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-box a{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #ff7675;
+    color: #fff;
+}
